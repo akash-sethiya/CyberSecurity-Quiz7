@@ -11,27 +11,27 @@ Time spent: **72** hours spent in total
     - Vulnerability types: Redirect to other target site
     - Tested in version: 3.7
     - Fixed in version: 4.2.7
-  - [X] GIF Walkthrough: <img src="https://imgur.com/a/fNaW3" title="Open Redirect Vulnerability Recreate Walkthrough />
+  - [X] GIF Walkthrough: <img src='https://imgur.com/a/fNaW3' title='Open Redirect Vulnerability Recreate Walkthrough' />
   - [X] Steps to recreate: Create a page with title and body and set the onload attribute value to - Some other URL.
-  - [X] Affected source code: <body onload="window.location.href = 'www.facebook.com'"></body>
+  - [X] Affected source code: "body onload="window.location.href = 'www.facebook.com'"></body>"
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Unauthenticate Stored Cross Site Scriptiing (XSS)
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: <= 4.2
     - Fixed in version: 4.2.1
-  - [X] GIF Walkthrough: <img src="https://imgur.com/a/EVkjE" title="XSS Walkthrough"></img>
+  - [X] GIF Walkthrough: <img src='https://imgur.com/a/EVkjE' title='XSS Walkthrough' />
   - [X] Steps to recreate: Create a Page and then added a tag which opens the popup on load of the page, where we can set anything to mess with the user.
-  - [ ] Affected source code: The code can be found <a href="https://github.com/akash-sethiya/CyberSecurity-Quiz7/blob/master/XSS%20-%202.txt">Here</a>
+  - [ ] Affected source code: The code can be found <a href='https://github.com/akash-sethiya/CyberSecurity-Quiz7/blob/master/XSS%20-%202.txt'>Here</a>
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Required) Unauthenticated Stored Cross Site Scripting (XSS)
   - [X] Summary: 
     - Vulnerability types: XSS
     - Tested in version: <=4.2
     - Fixed in version: 4.2.1
-  - [X] GIF Walkthrough: <img sre="https://imgur.com/a/ol0yB" title="XSS Walkthrough"></img>
+  - [X] GIF Walkthrough: <img sre='https://imgur.com/a/ol0yB' title='XSS Walkthrough' />
   - [X] Steps to recreate: Create a page and then comment on it with unlimited amount of characters which causes the page hand and also write a popup open script on mouse over in the comment and it will keep opening the popup and because of this user would not be able to do anything on the page. Also, any malicious code can be used in the comment in popup code.
-  - [X] Affected source code: The code can be found <a href="https://github.com/akash-sethiya/CyberSecurity-Quiz7/blob/master/XSS%20-%201.txt">Here</a>
+  - [X] Affected source code: The code can be found <a href='https://github.com/akash-sethiya/CyberSecurity-Quiz7/blob/master/XSS%20-%201.txt'>Here</a>
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
 1. (Optional) Vulnerability Name or ID
   - [ ] Summary: 
